@@ -1,0 +1,8 @@
+stages:
+  drift-detection:
+    cmd: python detect_drift.py
+    deps:
+      - data/employee_attrition.csv
+      - data/synthetic_employee_attrition.csv
+    outs:
+      - drift_alert.log

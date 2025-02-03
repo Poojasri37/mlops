@@ -1,0 +1,11 @@
+INFO:root:No data drift detected in 'Age' feature. KS Test p-value: 0.2950144852285414
+INFO:root:No data drift detected in 'DistanceFromHome' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'YearsAtCompany' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'TotalWorkingYears' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'YearsInCurrentRole' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'Age' feature. KS Test p-value: 0.2950144852285414
+INFO:root:No data drift detected in 'DistanceFromHome' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'YearsAtCompany' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'TotalWorkingYears' feature. KS Test p-value: 1.0
+INFO:root:No data drift detected in 'YearsInCurrentRole' feature. KS Test p-value: 1.0
+INFO:root:Drift detection completed.

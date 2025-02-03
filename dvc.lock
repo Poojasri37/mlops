@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  drift-detection:
+    cmd: python detect_drift.py
+    deps:
+    - path: data/employee_attrition.csv
+      hash: md5
+      md5: ad8207459e5732574372cf8ff619883f
+      size: 227977
+    - path: data/synthetic_employee_attrition.csv
+      hash: md5
+      md5: 159c7b7e5c8dcdb5996f8f9277515872
+      size: 226205
+    outs:
+    - path: drift_alert.log
+      hash: md5
+      md5: e670987283f2895867e4c9d496ca6858
+      size: 904
